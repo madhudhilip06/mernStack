@@ -46,6 +46,7 @@ h3{
     text-align: center;
 }
 .container{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -59,13 +60,9 @@ h3{
     
 }
 @media (max-width: 768px) {
-    .card{
-        flex: 1 1 calc(50%);
+    .card {
+    flex: 1 1 calc(33.33% - 10px);
     }
 }
-@media (max-width: 480px) {
-    .card{
-        flex: 1 1 calc(33.33%);
-    }
-}
+
 
