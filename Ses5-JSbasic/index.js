@@ -83,24 +83,24 @@
 
 //ARRAYS :
 
-// function arrayFun(){
-//     let fruits = ["Apple", "Banana" , "Grape"];
-//     fruits.push("Orange"); //add element at the end
-//     fruits.pop(); //remove element from the end
-//     fruits.splice(1,2); //remove element from specific index
-//     fruits.slice(1,2) //returns new array from specific index
-//     fruits[1] = "Mango"; //update element at specific index
-//     console.log(fruits);
-// }
-// arrayFun();/
+function arrayFun(){
+    let fruits = ["Apple", "Banana" , "Grape"];
+    fruits.push("Orange"); //add element at the end
+    fruits.pop(); //remove element from the end
+    fruits.splice(1,2); //remove element from specific index
+    fruits.slice(1,2) //returns new array from specific index
+    fruits[1] = "Mango"; //update element at specific index
+    console.log(fruits);
+}
+arrayFun();
 
 //OBJECTS:
 
-function objectFun(){
-    let student = {name:"Mad", age:20, isEnrolled:true};
-    student.name="Dhilip"; //updating value
-    student.phoneNumber = 1234567890;
-    console.log(student);
-    console.log(student.name); //accessing value using dot notation
-}
-objectFun();
+// function objectFun(){
+//     let student = {name:"Mad", age:20, isEnrolled:true};
+//     student.name="Dhilip"; //updating value
+//     student.phoneNumber = 1234567890;
+//     console.log(student);
+//     console.log(student.name); //accessing value using dot notation
+// }
+// objectFun();
